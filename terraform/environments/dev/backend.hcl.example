@@ -1,0 +1,3 @@
+bucket = "my-tf-state-dev"
+key    = "vmware-migration-factory/dev/terraform.tfstate"
+region = "us-east-1"

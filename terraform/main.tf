@@ -1,2 +1,8 @@
-terraform { required_version = ">=1.5.0" }
-resource "null_resource" "example" {}
+module "migration_staging" {
+  source = "./modules/migration_staging"
+
+  name_prefix             = var.name_prefix
+  environment             = var.environment
+  artifact_retention_days = var.artifact_retention_days
+  tags                    = var.tags
+}

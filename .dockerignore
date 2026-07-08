@@ -1,0 +1,15 @@
+.git
+.github
+tests
+terraform
+examples
+__pycache__
+*.py[cod]
+.pytest_cache
+.ruff_cache
+.venv
+venv
+.env
+dist
+build
+*.egg-info

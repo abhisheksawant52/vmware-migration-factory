@@ -1,0 +1,9 @@
+aws_region              = "us-east-1"
+environment             = "dev"
+name_prefix             = "vmf"
+artifact_retention_days = 14
+
+tags = {
+  Owner = "platform-team"
+  Stage = "dev"
+}

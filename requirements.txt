@@ -1,0 +1,4 @@
+pyVmomi>=8.0
+pydantic>=2.6
+pydantic-settings>=2.2
+click>=8.1

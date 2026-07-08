@@ -1,0 +1,42 @@
+[
+  {
+    "name": "web-01",
+    "vcpu": 2,
+    "memory_mb": 4096,
+    "provisioned_disk_gb": 50,
+    "guest_os": "Ubuntu Linux (64-bit)",
+    "power_state": "poweredOn",
+    "cluster": "Cluster-A",
+    "datastore": "ds-ssd-01"
+  },
+  {
+    "name": "db-01",
+    "vcpu": 8,
+    "memory_mb": 32768,
+    "provisioned_disk_gb": 500,
+    "guest_os": "Red Hat Enterprise Linux 9 (64-bit)",
+    "power_state": "poweredOn",
+    "cluster": "Cluster-A",
+    "datastore": "ds-ssd-02"
+  },
+  {
+    "name": "app-legacy",
+    "vcpu": 2,
+    "memory_mb": 4096,
+    "provisioned_disk_gb": 80,
+    "guest_os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "power_state": "poweredOn",
+    "cluster": "Cluster-B",
+    "datastore": "ds-sas-01"
+  },
+  {
+    "name": "old-01",
+    "vcpu": 1,
+    "memory_mb": 2048,
+    "provisioned_disk_gb": 20,
+    "guest_os": "CentOS 6 (64-bit)",
+    "power_state": "poweredOff",
+    "cluster": "Cluster-B",
+    "datastore": "ds-sas-01"
+  }
+]
